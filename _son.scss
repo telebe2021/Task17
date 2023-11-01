@@ -1,0 +1,73 @@
+.son {
+    width: 100%;
+    height: 700px;
+
+    .container {
+        margin: auto;
+        padding: 0px 32px;
+        max-width: 1400px;
+        .sona{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            height: 700px;
+            background-color: #ffffff;
+            .sonb{
+                width: 40%;
+                height: 500px;
+                h1{
+                    position: relative;
+                    bottom: 40px;
+                    font-size: 60px;
+                    font-family: 'Playpen Sans', cursive;
+                    color: #12265a;
+                }
+                p{
+                    position: relative;
+                    bottom: 40px;
+                    color: #263d5895;
+                    font-weight: -100;
+                    font-size: 1.2rem;
+                    font-family: 'Playpen Sans', cursive;
+                }
+                .pict{
+                    gap: 18px;
+                    width: 60%;
+                    height: 200px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                button{
+                    height: 50px;
+                    width: 50px;
+                    border: none;
+                    border-radius: 50%;
+       
+                    }
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                    h2{
+                        font-size: 28px;
+                    font-family: 'Playpen Sans', cursive;
+                    color: #183272;
+                }
+            }}
+            .pict1{
+                width: 45%;
+                height: 550px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 30px;
+                }
+            }
+        }
+        
+    }
+}

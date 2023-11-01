@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 32px;
+}
+
+@import "section";
+@import "hed";
+@import "textimg";
+@import "fat";
+@import "footer";
+@import "son";
+
+

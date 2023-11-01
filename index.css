@@ -1,0 +1,599 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 32px;
+}
+
+section {
+  width: 100%;
+  background-image: url("https://mobirise.com/extensions/glassm5/photo/assets/images/background4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+section .text {
+  padding: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section .kad {
+  width: 100%;
+  height: 400px;
+  border-radius: 15px;
+  display: flex;
+  gap: 30px;
+}
+section .kad .reqem {
+  width: 32%;
+  height: 380px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+}
+section .kad .reqem button {
+  height: 35px;
+  width: 100px;
+  border-radius: 18px;
+  background-color: rgb(223, 8, 8);
+  color: #efebeb;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  section {
+    height: 700px;
+    width: 100%;
+  }
+  section .text {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  section .text .kad {
+    width: 50%;
+    height: 300px;
+  }
+  section .text .kad .reqe {
+    width: 200px;
+    height: 200px;
+  }
+  section .text .kad .reqe .button {
+    width: 100px;
+    height: 40px;
+  }
+}
+.hed {
+  width: 100%;
+  height: 1000px;
+  background-image: url("https://mobirise.com/extensions/glassm5/photo/assets/images/background1.jpg");
+}
+.hed .heda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1000px;
+}
+.hed .heda .grid {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  height: 800px;
+  border-radius: 40px;
+  gap: 10px;
+}
+.hed .heda .grid h3 {
+  position: relative;
+  top: 20px;
+  width: 100%;
+  height: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  color: #263d5a;
+}
+.hed .heda .grid .inout {
+  font-size: 19px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 40px;
+  border: none;
+  width: 46%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.hed .heda .grid .text {
+  padding: 20px;
+  font-size: 20px;
+  width: 90%;
+  border: none;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.hed .heda .grid button {
+  height: 50px;
+  width: 90%;
+  border: none;
+  border-radius: 30px;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  background-color: #a148ff !important;
+  background: linear-gradient(90deg, #a148ff 0%, #ff6f45 100%);
+  color: white;
+  transition: all 0.3s;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .hed {
+    height: 700px;
+    width: 100%;
+  }
+  .hed .heda {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .hed .heda .grid {
+    width: 100%;
+    height: 600px;
+  }
+  .hed .heda .grid h3 {
+    font-size: 20px;
+  }
+}
+.textimg {
+  width: 100%;
+  height: 700px;
+  background-image: url("https://mobirise.com/extensions/glassm5/photo/assets/images/background5.jpg");
+}
+.textimg .mars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 700px;
+}
+.textimg .mars .img {
+  width: 30%;
+  height: 500px;
+  border-radius: 30px;
+}
+.textimg .mars .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 30px;
+}
+.textimg .mars .texting {
+  background-color: rgba(255, 255, 255, 0.4);
+  position: relative;
+  top: 103px;
+  border-radius: 30px;
+  left: 40px;
+  width: 60%;
+  height: 300px;
+  padding: 40px;
+}
+.textimg .mars .texting p {
+  font-family: "Playfair Display", serif;
+  font-size: 1.9rem;
+  color: #263d5a;
+}
+.textimg .mars .texting h3 {
+  color: #263d5a;
+  font-size: 1.2rem;
+  font-family: "Roboto Slab", serif;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .textimg {
+    height: 1100px;
+    width: 100%;
+  }
+  .textimg .maes {
+    height: 1100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  .textimg .maes .img {
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    top: 450px;
+  }
+  .textimg .maes .img img {
+    width: 100%;
+    height: 100%;
+  }
+  .textimg .maes .texting {
+    text-align: center;
+    width: 80%;
+    height: 300px;
+    gap: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 65px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .textimg {
+    height: 600px;
+    width: 100%;
+  }
+  .textimg .mars {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .textimg .mars .img {
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 10px;
+  }
+  .textimg .mars .img img {
+    width: 100%;
+    height: 100%;
+  }
+  .textimg .mars .texting {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 330px;
+    left: 0px;
+  }
+  .textimg .mars .texting h3 {
+    font-size: 17px;
+  }
+  .textimg .mars .texting p {
+    font-size: 14px;
+  }
+}
+.fat {
+  width: 100%;
+  height: 700px;
+  background-color: #a7cefe;
+}
+.fat .nanny {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 150px;
+  padding: 50px;
+}
+.fat .nanny .img4 {
+  width: 37%;
+  height: 400px;
+  border-radius: 30px;
+}
+.fat .nanny .img4 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 30px;
+}
+.fat .nanny .img4 .ted {
+  padding: 20px 20px;
+  width: 50%;
+  border-radius: 20px;
+  background-color: #45b3df;
+  position: relative;
+  left: 330px;
+  bottom: 180px;
+}
+.fat .nanny .img4 .ted .teda {
+  width: 100%;
+  border: dashed;
+  border: 2px solid dashed;
+  border-color: white;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.fat .nanny .img4 .ted .teda h1 {
+  font-family: "Playpen Sans", cursive;
+}
+.fat .nanny .img4 .ted .teda h2 {
+  font-family: "Playpen Sans", cursive;
+  font-size: 20px;
+}
+.fat .nanny .bam {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.fat .nanny .bam h1 {
+  font-size: 40px;
+  font-family: "Playpen Sans", cursive;
+  color: #12265a;
+  background-size: 100% 0.521em;
+  display: inline;
+  margin: 0 -12px;
+  padding: 0 12px;
+  background-image: linear-gradient(to top, rgba(250, 157, 183, 0.5), rgba(250, 157, 183, 0.5));
+  background-repeat: no-repeat;
+  background-position: 0% 74%;
+}
+.fat .nanny .bam h3 {
+  font-size: 40px;
+  font-family: "Playpen Sans", cursive;
+  color: #12265a;
+  background-size: 100% 0.521em;
+  display: inline;
+  margin: 0 -12px;
+  padding: 0 12px;
+  background-image: linear-gradient(to top, rgba(207, 183, 0, 0.5), rgba(207, 155, 0, 0.5));
+  background-repeat: no-repeat;
+  background-position: 0% 74%;
+}
+.fat .nanny .bam p {
+  color: #263d5a;
+  font-size: 1.2rem;
+  font-family: "Playpen Sans", cursive;
+}
+.fat .nanny .bam .btn {
+  background-color: rgba(255, 166, 0, 0.7);
+  width: 40%;
+  height: 60px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  color: rgb(204, 101, 101);
+}
+.fat .nanny .bam .btn .mtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: dashed;
+  border: 2px solid dashed;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  line-height: 1.7;
+  font-weight: 900;
+  font-style: normal;
+}
+
+footer {
+  width: 100%;
+  height: 700px;
+  background: #ffffff;
+}
+footer .confo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 700px;
+  gap: 120px;
+}
+footer .confo .fota {
+  width: 30%;
+  height: 550px;
+  border-radius: 30px;
+}
+footer .confo .fota img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 30px;
+}
+footer .confo .fota .fotb {
+  padding: 20px 20px;
+  width: 90%;
+  height: 530px;
+  border-radius: 20px;
+  background-color: #45b3df;
+  position: relative;
+  left: 270px;
+  bottom: 480px;
+}
+footer .confo .fota .fotb .fotc {
+  padding: 20px 0px;
+  align-items: center;
+  border: dashed;
+  border: 2px solid dashed;
+  border-color: white;
+  border-radius: 20px;
+  width: 100%;
+  color: white;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .confo .fota .fotb .fotc .input {
+  font-size: 14px;
+  padding: 15px;
+  border-radius: 30px;
+  height: 40px;
+  border: none;
+  width: 70%;
+}
+footer .confo .fota .fotb .fotc .text1 {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  height: 150px;
+  border: none;
+  width: 70%;
+}
+footer .confo .fota .fotb .fotc .bts {
+  background-color: rgba(255, 204, 0, 0.8);
+  width: 70%;
+  height: 60px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  color: white;
+}
+footer .confo .fota .fotb .fotc h1 {
+  font-family: "Playpen Sans", cursive;
+  font-size: xx-large;
+}
+footer .confo .baa {
+  position: relative;
+  left: 150px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  width: 40%;
+  height: 400px;
+  padding: 40px;
+  bottom: 20px;
+}
+footer .confo .baa h1 {
+  font-size: 40px;
+  font-family: "Playpen Sans", cursive;
+  color: #12265a;
+  background-size: 100% 0.521em;
+  display: inline;
+  margin: 0 -12px;
+  padding: 0 12px;
+  background-image: linear-gradient(to top, rgba(250, 157, 183, 0.5), rgba(250, 157, 183, 0.5));
+  background-repeat: no-repeat;
+  background-position: 0% 74%;
+}
+footer .confo .baa h3 {
+  font-size: 40px;
+  font-family: "Playpen Sans", cursive;
+  color: #12265a;
+  background-size: 100% 0.521em;
+  display: inline;
+  margin: 0 -12px;
+  padding: 0 12px;
+  background-image: linear-gradient(to top, rgba(207, 183, 0, 0.5), rgba(207, 155, 0, 0.5));
+  background-repeat: no-repeat;
+  background-position: 0% 74%;
+}
+footer .confo .baa p {
+  color: #263d5a;
+  font-size: 1.2rem;
+  font-family: "Playpen Sans", cursive;
+}
+footer .confo .baa .icons {
+  height: 200px;
+  gap: 18px;
+  width: 270px;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .confo .baa .icons i {
+  color: #45b3df;
+  font-size: 30px;
+}
+footer .confo .baa .icons h3 {
+  font-size: 30px;
+  font-family: "Playpen Sans", cursive;
+  color: #12265a;
+}
+
+.son {
+  width: 100%;
+  height: 700px;
+}
+.son .container {
+  margin: auto;
+  padding: 0px 32px;
+  max-width: 1400px;
+}
+.son .container .sona {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-color: #ffffff;
+}
+.son .container .sona .sonb {
+  width: 40%;
+  height: 500px;
+}
+.son .container .sona .sonb h1 {
+  position: relative;
+  bottom: 40px;
+  font-size: 60px;
+  font-family: "Playpen Sans", cursive;
+  color: #12265a;
+}
+.son .container .sona .sonb p {
+  position: relative;
+  bottom: 40px;
+  color: rgba(38, 61, 88, 0.5843137255);
+  font-weight: -100;
+  font-size: 1.2rem;
+  font-family: "Playpen Sans", cursive;
+}
+.son .container .sona .sonb .pict {
+  gap: 18px;
+  width: 60%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.son .container .sona .sonb .pict button {
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+}
+.son .container .sona .sonb .pict img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.son .container .sona .sonb .pict h2 {
+  font-size: 28px;
+  font-family: "Playpen Sans", cursive;
+  color: #183272;
+}
+.son .container .sona .pict1 {
+  width: 45%;
+  height: 550px;
+}
+.son .container .sona .pict1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 30px;
+}/*# sourceMappingURL=index.css.map */
